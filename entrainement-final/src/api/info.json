@@ -1,0 +1,378 @@
+[
+    {
+        "image": "/images/Warden.webp",
+        "name": "Warden",
+        "faction": "Knight",
+        "type": "Vanguard",
+        "difficulty": "Easy",
+        "info": [
+            "Adaptable",
+            " Straightforward"
+        ]
+    },
+    {
+        "image": "/images/Peacekeeper.webp",
+        "name": "Peacekeeper",
+        "faction": "Knight",
+        "type": "Assassin",
+        "difficulty": "Medium",
+        "info": [
+            "Fast",
+            " Counter-attacker"
+        ]
+    },
+    {
+        "image": "/images/Centurion.webp",
+        "name": "Centurion",
+        "faction": "Knight",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Melee specialist",
+            " Mix-up intensive"
+        ]
+    },
+    {
+        "image": "/images/BP.jpeg",
+        "name": "Black Prior",
+        "faction": "Knight",
+        "type": "Heavy",
+        "difficulty": "Easy - Medium",
+        "info": [
+            "Counter-attacker",
+            " Protector"
+        ]
+    },
+    {
+        "image": "/images/Gryphon.avif",
+        "name": "Gryphon",
+        "faction": "Knight",
+        "type": "Hybrid",
+        "difficulty": "Easy",
+        "info": [
+            "Support",
+            " Versatile"
+        ]
+    },
+    {
+        "image": "/images/Conqueror.webp",
+        "name": "Conqueror",
+        "faction": "Knight",
+        "type": "Heavy",
+        "difficulty": "Medium",
+        "info": [
+            "Strong defense",
+            " Hard hitter"
+        ]
+    },
+    {
+        "image": "/images/Lawbringer.webp",
+        "name": "Lawbringer",
+        "faction": "Knight",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Counter-attacker",
+            " Disabler"
+        ]
+    },
+    {
+        "image": "/images/Gladiator.webp",
+        "name": "Gladiator",
+        "faction": "Knight",
+        "type": "Assassin",
+        "difficulty": "Easy",
+        "info": [
+            "Stamina preserver",
+            " Mix-up intensive"
+        ]
+    },
+    {
+        "image": "/images/Warmonger.avif",
+        "name": "Warmonger",
+        "faction": "Knight",
+        "type": "Vanguard",
+        "difficulty": "Easy",
+        "info": [
+            "Adaptable",
+            " Straightforward"
+        ]
+    },
+    {
+        "image": "/images/Raider.webp",
+        "name": "Raider",
+        "faction": "Viking",
+        "type": "Vanguard",
+        "difficulty": "Easy",
+        "info": [
+            "Adaptable",
+            " Straightforward"
+        ]
+    },
+    {
+        "image": "/images/Berserker.webp",
+        "name": "Berserker",
+        "faction": "Viking",
+        "type": "Assassin",
+        "difficulty": "Hard",
+        "info": [
+            "Short range",
+            " Harrasser"
+        ]
+    },
+    {
+        "image": "/images/Highlander.webp",
+        "name": "Highlander",
+        "faction": "Viking",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Two combat forms",
+            " Technical fighter"
+        ]
+    },
+    {
+        "image": "/images/Jormm.webp",
+        "name": "Jormungandr",
+        "faction": "Viking",
+        "type": "Heavy",
+        "difficulty": "Medium",
+        "info": [
+            "Disabler",
+            " Harrasser"
+        ]
+    },
+    {
+        "image": "/images/Warlord.webp",
+        "name": "Warlord",
+        "faction": "Viking",
+        "type": "Heavy",
+        "difficulty": "Medium",
+        "info": [
+            "Harrasser",
+            " Counter-attacker"
+        ]
+    },
+    {
+        "image": "/images/Valkyrie.webp",
+        "name": "Valkyrie",
+        "faction": "Viking",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Adaptable",
+            " Disabler"
+        ]
+    },
+    {
+        "image": "/images/Shaman.webp",
+        "name": "Shaman",
+        "faction": "Viking",
+        "type": "Assassin",
+        "difficulty": "Medium",
+        "info": [
+            "Predatory",
+            " Fast attacker",
+            " Blood trance"
+        ]
+    },
+    {
+        "image": "/images/Varangian.webp",
+        "name": "Varangian Guard",
+        "faction": "Viking",
+        "type": "Heavy",
+        "difficulty": "Medium",
+        "info": [
+            "Protector",
+            " Disabler"
+        ]
+    },
+    {
+        "image": "/images/Kensei.webp",
+        "name": "Kensei",
+        "faction": "Samuraï",
+        "type": "Vanguard",
+        "difficulty": "Easy",
+        "info": [
+            "Adaptable",
+            " Good range"
+        ]
+    },
+    {
+        "image": "/images/Orochi.webp",
+        "name": "Orochi",
+        "faction": "Samuraï",
+        "type": "Assassin",
+        "difficulty": "Hard",
+        "info": [
+            "Agile",
+            " Counter-attacker"
+        ]
+    },
+    {
+        "image": "/images/Shinobi.webp",
+        "name": "Shinobi",
+        "faction": "Samuraï",
+        "type": "Assassin",
+        "difficulty": "Hard",
+        "info": [
+            "Mobile",
+            " Counter-attacker"
+        ]
+    },
+    {
+        "image": "/images/Hitokiri.webp",
+        "name": "Hitokiri",
+        "faction": "Samuraï",
+        "type": "Heavy",
+        "difficulty": "Medium",
+        "info": [
+            "Mix-up intensive",
+            " Hard hitter"
+        ]
+    },
+    {
+        "image": "/images/Shugoki.webp",
+        "name": "Shugoki",
+        "faction": "Samuraï",
+        "type": "Heavy",
+        "difficulty": "Easy",
+        "info": [
+            "Disabler",
+            " Hard hitter"
+        ]
+    },
+    {
+        "image": "/images/Nobushi.webp",
+        "name": "Nobushi",
+        "faction": "Samuraï",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Long range",
+            " Versatile retreat"
+        ]
+    },
+    {
+        "image": "/images/Aramusha.webp",
+        "name": "Aramusha",
+        "faction": "Samuraï",
+        "type": "Hybrid",
+        "difficulty": "Medium",
+        "info": [
+            "Fast Attacks",
+            " Feint",
+            " Counter-attacks"
+        ]
+    },
+    {
+        "image": "/images/Kyoshin.jpg",
+        "name": "Kyoshin",
+        "faction": "Samuraï",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Counter-attacker",
+            " Highly defensive"
+        ]
+    },
+    {
+        "image": "/images/Tiandii.webp",
+        "name": "Tiandi",
+        "faction": "Wu-Lin",
+        "type": "Vanguard",
+        "difficulty": "Easy",
+        "info": [
+            "Adaptable",
+            " Dodge specialist"
+        ]
+    },
+    {
+        "image": "/images/Nuxia.webp",
+        "name": "Nuxia",
+        "faction": "Wu-Lin",
+        "type": "Assassin",
+        "difficulty": "Medium",
+        "info": [
+            "Isolator",
+            " Mix-up intensive"
+        ]
+    },
+    {
+        "image": "/images/zhanhu.webp",
+        "name": "Zhanhu",
+        "faction": "Wu-Lin",
+        "type": "Hybrid",
+        "difficulty": "Medium",
+        "info": [
+            "Counter-attacker",
+            " Dodge-attack specialist"
+        ]
+    },
+    {
+        "image": "/images/Jiang Jun.webp",
+        "name": "Jiang Jun",
+        "faction": "Wu-Lin",
+        "type": "Heavy",
+        "difficulty": "Hard",
+        "info": [
+            "Long range",
+            " Stamina regenerator"
+        ]
+    },
+    {
+        "image": "/images/Shaolin.webp",
+        "name": "Shaolin",
+        "faction": "Wu-Lin",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Highly mobile",
+            " QI stance"
+        ]
+    },
+    {
+        "image": "/images/Pirate.webp",
+        "name": "Pirate",
+        "faction": "Outlanders",
+        "type": "Hybrid",
+        "difficulty": "Medium",
+        "info": [
+            "Counter-attacker",
+            " Mix-up intensive"
+        ]
+    },
+    {
+        "image": "/images/Afeera.webp",
+        "name": "Afeera",
+        "faction": "Outlanders",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Relentless rush down",
+            " Mix-up intensive"
+        ]
+    },
+    {
+        "image": "/images/Medjay.webp",
+        "name": "Medjay",
+        "faction": "Outlanders",
+        "type": "Hybrid",
+        "difficulty": "Hard",
+        "info": [
+            "Two combat modes",
+            " Versatile"
+        ]
+    },
+    {
+        "image": "/images/Ocelotl.webp",
+        "name": "Ocelotl",
+        "faction": "Outlanders",
+        "type": "Hybrid",
+        "difficulty": "Medium",
+        "info": [
+            "Disabler",
+            " Ganker"
+        ]
+    }
+]

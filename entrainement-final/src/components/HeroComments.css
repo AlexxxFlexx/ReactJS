@@ -1,0 +1,59 @@
+.hero-comments {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero-comments form {
+  margin-bottom: 1.5rem;
+}
+
+.hero-comments textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: white;
+}
+
+.hero-comments button {
+  background-color: #ffdd00;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-comments button:hover {
+  background-color: #ffffff;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comment {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.comment strong {
+  color: #ffdd00;
+  margin-right: 1rem;
+}
+
+.comment small {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.comment p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
