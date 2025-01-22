@@ -12,7 +12,7 @@ export default function Heroes() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/src/api/info.json");
+        const response = await fetch("/info.json");
         const data = await response.json();
         
         setTimeout(() => {
