@@ -27,8 +27,8 @@ export default function Contact() {
   if (isSubmitted) {
     return (
       <div className="success-message">
-        <h2>Message envoyé avec succès!</h2>
-        <p>Merci {formData.name}, nous vous répondrons dans les plus brefs délais.</p>
+        <h2>Missive envoyée avec succès!</h2>
+        <p>Merci {formData.name}, nous vous répondrons dans les plus brefs délais à la suite de la bataille.</p>
         <button onClick={() => {
           setIsSubmitted(false);
           setFormData({
