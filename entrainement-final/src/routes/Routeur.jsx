@@ -5,7 +5,7 @@ import { Navigate } from "react-router";
 
 import Home from "../pages/Home/Home.jsx";
 import Heroes from "../pages/Heros/Heros.jsx";
-import Contact from "../pages/Contact/contact.jsx";
+import Contact from "../pages/Contact/Contact.jsx";
 import NotFound from "../pages/NotFound/NotFound.jsx";
 
 function ProtectedRoute({ children }) {
