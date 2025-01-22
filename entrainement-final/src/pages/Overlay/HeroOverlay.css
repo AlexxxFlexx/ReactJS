@@ -36,6 +36,11 @@
     font-size: 2rem;
     cursor: pointer;
     padding: 0.5rem;
+    outline: none;
+  
+    &:focus {
+      outline: none;
+    }
 
     &:hover {
       color: #ffdd00;
