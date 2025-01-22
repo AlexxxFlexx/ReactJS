@@ -3,6 +3,9 @@ import { Link } from 'react-router';
 import SignupForm from '../../components/SignupForm.jsx';
 import './header.scss';
 import { useAuth } from "../../auth/AuthProvider";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Header() {
   const [showSignup, setShowSignup] = useState(false);
@@ -33,7 +36,11 @@ export default function Header() {
           {user && (
             <li><Link to="/héros" onClick={() => setIsMenuOpen(false)}>Héros</Link></li>
           )}
-          <li><Link to="https://store.ubisoft.com/fr/for-honor/659ea90829c01c38968dce19.html" target='_blank' onClick={() => setIsMenuOpen(false)}>Acheter le jeu</Link></li>
+          <li>
+            <Link to="https://store.ubisoft.com/fr/for-honor/659ea90829c01c38968dce19.html" target='_blank' onClick={() => setIsMenuOpen(false)}>
+              Acheter le jeu <FontAwesomeIcon icon={faExternalLinkAlt} style={{ marginLeft: '5px' }} />
+            </Link>
+          </li>
           <li><Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
         </ul>
       </nav>
