@@ -15,7 +15,6 @@ export default function Heroes() {
         const response = await fetch("/src/api/info.json");
         const data = await response.json();
         
-        // Set minimum loading time to 2 seconds
         setTimeout(() => {
           setHeroes(data);
           setIsLoading(false);

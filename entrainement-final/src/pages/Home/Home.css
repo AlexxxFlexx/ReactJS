@@ -6,9 +6,10 @@
 
 .hero-section {
   height: 80vh;
-  background-image: url('/path-to-your-for-honor-background.jpg');
+  background-image: url('/ct_14022017_for-honor.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   position: relative;
 }
 

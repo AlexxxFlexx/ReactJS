@@ -33,15 +33,15 @@ export default function Home() {
       </div>
 
       <div className="news-section">
-        <h2>Latest News</h2>
+        <h2>Mises à jour</h2>
         <div className="news-grid">
           <div className="news-card">
-            <h3>New Season Coming</h3>
-            <p>Prepare for battle in the upcoming season!</p>
+            <h3>Arrivée de la nouvelle saison !</h3>
+            <p>Préparez vous au combat dans la nouvelle saison !</p>
           </div>
           <div className="news-card">
-            <h3>Weekly Challenges</h3>
-            <p>Complete challenges to earn exclusive rewards</p>
+            <h3>Challenges hebdomadaires !</h3>
+            <p>Complétez les challenges pour obtenir des récompenses exclusives !</p>
           </div>
         </div>
       </div>
