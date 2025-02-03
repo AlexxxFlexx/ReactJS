@@ -1,0 +1,264 @@
+.home-container {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.hero-section {
+    height: 80vh;
+    background-image: url('/dc-comics-man-of-steel-2712377-1920x1200-970x545-176188.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 6rem;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    animation: fadeIn 0.8s ease-in;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: fadeIn 0.8s ease-in;
+}
+
+.subtitle-2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #0028dc;
+    animation: fadeIn 0.8s ease-in;
+}
+
+.intro-section {
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    max-width: 1000px;
+    animation: fadeIn 0.8s ease-in;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.intro-content {
+    text-align: center;
+    padding: 1rem;
+}
+
+.intro-content h2 {
+    font-family: 'Cinzel', serif;
+    color: #0028dc;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.intro-content h2:hover {
+    transform: scale(1.02);
+}
+
+.intro-content p {
+    color: #e0e0e0;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.search-section {
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+}
+
+.search-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.search-input {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: 2px solid #0028dc;
+    border-radius: 4px;
+    background-color: #232323;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    padding-left: 3rem;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 40, 220, 0.3);
+}
+
+.search-input::placeholder {
+    color: #666666;
+}
+
+.search-button {
+    padding: 1rem 2rem;
+    background-color: #0028dc;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 2rem;
+}
+
+.search-button:hover {
+    background-color: #ffffff;
+    color: #0028dc;
+}
+
+.search-input-wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 1rem;
+    color: #666666;
+    font-size: 1.1rem;
+}
+
+.hero-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+}
+
+.hero-card {
+    background-color: #232323;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.hero-card:hover {
+    transform: translateY(-5px);
+}
+
+.hero-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.hero-card h3 {
+    padding: 1rem;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    background-color: #0028dc;
+}
+
+.loader-container {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.loader {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 40, 220, 0.3);
+}
+
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: column;
+    }
+
+    .search-button {
+        width: 100%;
+    }
+
+    .intro-section {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    .intro-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .intro-content p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .factions-container {
+        grid-template-columns: 1fr;
+    }
+
+    .search-input-wrapper {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
