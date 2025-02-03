@@ -33,7 +33,7 @@ export default function Home() {
         <div className="home-container">
             <div className="hero-section">
                 <div className="overlay">
-                    <h1 className="title">SUPER HÉROS</h1>
+                    <h1 className="title">SUPER HÉROS DB</h1>
                     <p className="subtitle">Parcourez vos Héros !</p>
                     <p className="subtitle-2">Et trouvez votre préféré !</p>
                 </div>
@@ -41,7 +41,7 @@ export default function Home() {
 
             <div className="intro-section">
                 <div className="intro-content">
-                    <h2>Bienvenue sur Super Heroes DB</h2>
+                    <h2>Bienvenue sur Super Héros DB</h2>
                     <p>
                         Découvrez notre vaste collection de super-héros ! Recherchez vos héros préférés,
                         explorez leurs pouvoirs et leurs histoires. Une base de données complète dédiée

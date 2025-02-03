@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__copyright">
-          <p>&copy;  Super Heroes DB - Tout droits réservés</p>
+          <p>&copy;  Super Héros DB - Tout droits réservés</p>
         </div>
       </div>
     </footer>
